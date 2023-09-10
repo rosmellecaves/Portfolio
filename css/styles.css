@@ -1,0 +1,285 @@
+body{
+    /* height: 100%; */
+    background-color: #F4DFD0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* overflow: hidden; */
+}
+
+.navbar{
+    background-color: #F4DFD0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    justify-content: left;
+}
+
+.nav-link{
+    color: #545454;
+}
+
+.nav-link.active{
+    color:#545454;
+    background-color:none; 
+    border-color:none;
+    border-bottom: 3px solid #545454;
+    }
+
+.title-name{
+    height: auto;
+    width: 100%;
+    float: right;
+    margin-right: 1rem;
+}
+
+.vector-icon{
+    margin-left: 1rem;
+    height: auto;
+    width: 80%;
+}
+
+.self-description{
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.typewrite{
+    color: #545454;
+    text-decoration: none;
+}
+
+footer{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3.2rem;
+    font-size: x-small;
+    color: #545454;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Content for About */
+
+.myImg{
+    width: 300px;
+    height: auto;
+    border: #FFC7C7 solid 0.5rem;
+    border-radius: 5%;
+    margin-left: 2rem;
+}
+
+.age{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-left: 3rem;
+}
+
+.myAge{
+    width: 200px;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.divider1{
+    width: 70%;
+    margin-left: 2rem;
+    border: black solid 2px;
+}
+
+.summary{
+    width: 200px;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.rowSecond{
+    margin-right: 3rem;
+}
+
+.myDesc{    
+    text-align: justify;
+    padding: 1rem;
+    font-size:17.5px;
+    background-size: contain;
+    background-color: #FFC7C7;
+    margin-left: 2.9rem;
+    border-radius: 25px;
+    width: auto;
+}
+
+.intern{
+    font-size: 2rem;
+    color: #545454;
+    letter-spacing: 1.1rem;
+}
+
+.cusyma{
+    width: 420px;
+    height: auto;
+}
+
+.divider2{
+    width: 89%;
+    border: black solid 2px;
+}
+
+.skillset{
+    width: 420px;
+    height: auto;
+}
+
+.progress{
+    height: 40px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    border-radius: 25px;
+    background-color: #545454;
+}
+
+.progress-bar{
+    color: #545454;
+    background-color: #FF94A4;
+}
+
+.rowThird{
+    justify-content: center;
+    border-radius: 25px;
+    color: #545454;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 2rem;
+    background-color: #FFC7C7;
+}
+
+.tuplogo{
+    pad: 0.2rem;
+    width: 250px;
+    height: auto;
+}
+
+.attended{
+    margin-top: 5%;
+    width: 340px;
+    height: auto;
+}
+
+.sem{
+    color: #545454;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 4rem;
+}
+
+.socmed{
+    list-style: none;
+    display: inline-flex;
+}
+
+.bi{
+    color: #FF94A4;
+}
+
+.iconSNS{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 3.7rem;
+}
+
+.divider3{
+    width: 89%;
+    border: black solid 2px;
+}
+
+.iconSNS:hover {
+    font-size: 4rem;
+  }
+
+  /* content for contacts */
+
+.contactMe{
+    display: block;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: auto;
+  }
+
+.info{
+    font-size: larger;
+}
+
+.row-contact{
+    text-align: center;
+  }
+
+  /* content for projects */
+
+.toggle-container{
+    margin-top:10%;
+}
+
+.card{
+    background-color: #FF94A4;
+    padding: 0.5rem;
+}
+
+.card-body{
+    background-color: #FFC7C7;
+}
+
+.projtitle{
+    padding: 2rem;
+    width: 340px;
+    height: auto;
+    margin-top: 4rem;
+}
+
+.project-gallery{
+    margin-left: 4rem;
+    padding-left: 2rem;
+    /* padding-bottom: 2rem; */
+}
+
+.project-gallery .card{
+     margin-left: 2rem;
+}
+
+.card-img-top{
+    margin-top: 0.25rem;
+    aspect-ratio: 4/3;
+}
+
+.destitle{
+    padding: 2rem;
+    width: 340px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.design-gallery{
+    margin-left: 4rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.design-gallery .card{
+    margin-left: 2rem;
+}
+
+.design-gallery .card-img-top{
+    margin-top: 0.25rem;
+   aspect-ratio: 4/3;
+}
+
+.click-link{
+    font-size: 10px;
+}
+
+.link-icon li{
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    text-shadow: 2px 2px 5px rgb(164, 164, 164);
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
